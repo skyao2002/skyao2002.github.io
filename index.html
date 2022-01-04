@@ -27,6 +27,12 @@
 
       gtag('config', 'G-0378D1YD4R');
     </script>
+    <script> 
+      $(function(){
+        $("#header-nav").load("header-nav.html"); 
+        // $("#footer").load("footer.html"); 
+      });
+      </script> 
   </head>
   <body class="is-preload">
     <!-- Wrapper -->
@@ -97,6 +103,34 @@
         <section class="posts">
           <article>
             <header>
+              <span class="date">January 2, 2022</span>
+              <h2>
+                <a href="storytimebot.html"
+                  >StoryTime Discord Bot</a
+                >
+              </h2>
+            </header>
+            <a href="storytimebot.html" class="image fit"
+              ><img src="images/cute-bear-reading-book-cartoon-1089279.jpeg" class="flex " style="border-radius: 50%;"/>
+            </a>
+            <!-- <a href="#" class="image fit"
+              ><iframe width="560" height="315" src="https://www.youtube.com/embed/1xYaNWfw24k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a> -->
+            <p style="margin: 0;">
+              <!-- With the political upheaval at the start of this decade combined with the massive shift towards online platforms, I felt there was a missing platform in the market that allows people to bring about change from the comfort of their own homes. -->
+              StoryBot uses the GPT-J 6B NLP model: 6 billion parameters trained on the Pile (825 GB of text data) published by EleutherAI.
+              It takes in any number of input words as a prompt and outputs a story starting with the given text. The project is all coded in
+              golang and hosted on Google Cloud Compute Engine in preparation for my Google Cloud Internship!
+            </p>
+            <ul class="actions special">
+              <li>
+                <a href="https://github.com/skyao2002/story-time-discord" class="button"
+                  >View Github</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article>
+            <header>
               <span class="date">February 13, 2021</span>
               <h2>
                 <a href="https://devpost.com/software/nofall"
@@ -104,6 +138,7 @@
                 >
               </h2>
             </header>
+            
             <!-- <a href="https://devpost.com/software/nofall" class="image fit"
               ><img src="images/nofall.png" class="flex " />
             </a> -->
